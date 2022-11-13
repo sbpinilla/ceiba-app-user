@@ -30,12 +30,16 @@
 </table>
 
 
-## 1. Dependencias 
+## 2. Dependencias 
 
 Se usa cocoa pods como gestor de dependencias 
 
-<img src="https://github.com/sbpinilla/ceiba-app-user/blob/main/img/pod.jpeg" width="200">
+<img src="https://github.com/sbpinilla/ceiba-app-user/blob/main/img/pod.png" width="600">
 
+
+## 2. Arquitectura
+
+Se implementa una arquitectura MVVM (Vista - Modelo - Vista Modelo)
 
 
 
