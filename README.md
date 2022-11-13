@@ -52,9 +52,7 @@ Se implementan tambien las dependencias de ```RxSwift y RxCocoa``` para extender
 
 Se usar core data como base de datos local. 
 
-<img src="https://github.com/sbpinilla/ceiba-app-user/blob/main/img/arquitectura.png" width="600">
-
-
+<img src="https://github.com/sbpinilla/ceiba-app-user/blob/main/img/db.png" width="600">
 
 
 
