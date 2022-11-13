@@ -1,0 +1,15 @@
+//
+//  dev.xcconfig
+//  UserApp
+//
+//  Created by Sergio pinilla on 12/11/22.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+URL_SERVER = https:/\/\jsonplaceholder.typicode.com
+IP_SERVER = 192.168.3.4
+APP_MODE = DEV
+SERVER_TIME_OUT = 30

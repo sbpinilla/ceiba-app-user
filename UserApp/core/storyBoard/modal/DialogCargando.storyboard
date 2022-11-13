@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Loading View Controller-->
+        <scene sceneID="ovy-Va-Mxv">
+            <objects>
+                <viewController storyboardIdentifier="LoadingViewController" id="cdY-v2-hcQ" customClass="LoadingViewController" customModule="Autogestión" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gR1-vr-xcH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PfX-8E-gXG">
+                                <rect key="frame" x="137" y="379" width="140" height="138"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="138" id="IRD-84-TZy"/>
+                                    <constraint firstAttribute="width" constant="140" id="glb-a8-vXd"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="138" id="p6G-pC-6Gg"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="zdL-Vc-Y95"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="repeatCount">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animatedImage" value="gif-cargado_mas-lento"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="PfX-8E-gXG" firstAttribute="centerX" secondItem="gR1-vr-xcH" secondAttribute="centerX" id="IhF-qo-09c"/>
+                            <constraint firstItem="PfX-8E-gXG" firstAttribute="centerY" secondItem="gR1-vr-xcH" secondAttribute="centerY" id="P4N-Ap-jUc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7IK-ez-tZ0"/>
+                    </view>
+                    <connections>
+                        <outlet property="containerView" destination="gR1-vr-xcH" id="DM2-ET-vB9"/>
+                        <outlet property="viewLoading" destination="PfX-8E-gXG" id="xHD-e1-G3r"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wr4-tc-vSw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="503" y="1782"/>
+        </scene>
+    </scenes>
+</document>
